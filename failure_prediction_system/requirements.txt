@@ -1,0 +1,22 @@
+# Основные зависимости
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+torch>=2.0.0
+xgboost>=1.7.0
+
+# Базы данных и потоковая передача
+psycopg2-binary>=2.9.0
+kafka-python>=2.0.2
+elasticsearch>=8.10.0
+
+# Мониторинг и визуализация
+prometheus-client>=0.17.0
+requests>=2.31.0
+plotly>=5.17.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Утилиты
+python-dotenv>=1.0.0
+python-json-logger>=2.0.0
