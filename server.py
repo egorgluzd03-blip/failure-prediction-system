@@ -1141,7 +1141,6 @@ HTML_TEMPLATE = """
 """
 
 if __name__ == '__main__':
-    global thread_running
     thread_running = True
     update_thread = threading.Thread(target=update_system)
     update_thread.daemon = True
