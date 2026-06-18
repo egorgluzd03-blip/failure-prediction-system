@@ -4,3 +4,11 @@ python-socketio
 eventlet
 gunicorn
 requests
+pandas
+numpy
+scikit-learn
+torch
+xgboost
+matplotlib
+plotly
+seaborn
