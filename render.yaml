@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: failure-prediction-system
+    env: python
+    buildCommand: |
+      cd failure_prediction_system
+      pip install --upgrade pip
+      pip install numpy pandas scikit-learn flask flask-socketio python-socketio eventlet gunicorn requests matplotlib plotly seaborn
+    startCommand: |
+      cd failure_prediction_system
+      gunicorn --worker-class eventlet -w 1 server:app
+    plan: free
