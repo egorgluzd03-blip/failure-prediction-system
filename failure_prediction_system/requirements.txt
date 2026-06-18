@@ -16,3 +16,4 @@ elasticsearch
 kafka-python
 psycopg2-binary
 prometheus-client
+tensorflow
